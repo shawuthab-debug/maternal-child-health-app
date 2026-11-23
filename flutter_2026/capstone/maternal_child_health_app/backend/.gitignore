@@ -5,3 +5,7 @@ maternal.db
 *.db
 __pycache__/
 venv/
+
+maternal.db
+venv/
+__pycache__/
