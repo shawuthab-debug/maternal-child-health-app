@@ -61,7 +61,7 @@
 | id (PK) | INT | Unique ID |
 | user_id (FK) | INT | Links to user |
 | message | VARCHAR | reminders to mother, healthworkers and admin |
-| send_date | DECIMAL | scheduled time before the appointments |
+| send_date | DATETIME | scheduled time before the appointments |
 | sent | BOOLEAN | true or false |
 | owner (FK) | INT | Links to user |
 
